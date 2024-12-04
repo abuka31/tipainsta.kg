@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="login-styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="instagram-logo.png" alt="Логотип Instagram">
+        </div>
+        <div class="login-form">
+            <h1>Вход</h1>
+            <form id="login-form">
+                <label for="username">Имя пользователя:</label>
+                <input type="text" id="username" name="username" placeholder="Введите имя пользователя" required>
+                
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" placeholder="Введите пароль" required>
+                
+                <button type="submit" class="login-button">Войти</button>
+            </form>
+            <p class="register-link">Нет аккаунта? <a href="register.html">Зарегистрироваться</a></p>
+            <!-- <p class="admin-link">Администрирование <a href="admin.html">Перейти</a></p> -->
+            <p class="forgot-password-link"><a href="forgot-password.html">Не помню пароль</a></p>
+        </div>
+    </div>
+    <script src="login-script.js"></script>
+</body>
+</html>
